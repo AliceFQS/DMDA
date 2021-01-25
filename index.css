@@ -1,0 +1,141 @@
+
+h2{
+	margin: 30px;
+}
+
+h4{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+	 }
+
+li{
+ display: flex;
+ justify-content: flex-end;
+ }
+
+
+.card3{ 
+display: flex;
+justify-content: space-around;
+
+}
+
+
+
+/* PAGE 1 Acceuil */
+
+
+.PP{ 
+	width: 100%;
+ 	display: flex
+	}
+
+.PP img { 
+	width: 100%;
+  	}
+
+.main {
+	text-align: center;
+	padding: 30px 0;
+	;
+	}
+.main p{ 
+	margin-bottom: 40px;
+}
+
+.Container{
+	width:100%;
+	display:flex;
+
+	} 
+.Image img{
+	width: 100%;
+	position: relative;
+}	
+.content { margin: 35px; 
+margin-left: 35px;}
+.Content {
+	position: absolute;
+	background-color: white;
+	opacity background color: 20%;
+	width: 35%;
+	padding: 20px;
+	text-align: justify;
+
+}
+
+
+
+
+/* PAGE 2 Visiter SPB */
+
+.P1{ display: flex;
+width: 100% 
+justify-content:space-around;
+background-color: #d0e8f2;
+}
+.P1 img {  
+  width : 50%;  
+  vertical-align:middle;
+}
+.P1 h4{
+	margin-top: 35px;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+.P1 p{
+	margin-left: 40px;
+	margin-top: 40px;
+	text-align: justify;
+	justify-content: center;
+	width : 85%;
+}
+
+.P2{ 
+	display: flex;
+	width: 100% 
+	justify-content:space-around;
+	background-color: #d0e8f2;
+}
+.P2 img { 
+	justify-content: right; 
+ 	width : 50%;  
+  	vertical-align:middle;
+}
+.P2 h4{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+.P2 p{
+	margin-left: 40px;
+	margin-top: 40px;
+	text-align: justify;
+	justify-content: center;
+	width : 85% ;
+}
+
+.P3{ display: flex;
+width: 100% 
+justify-content:space-around;
+background-color: #d0e8f2;
+}
+.P3 img {  
+  width : 50%;  
+  vertical-align:middle;
+}
+.P3 h4{
+	margin-top: 35px;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+.P3 p{
+	margin-left: 40px;
+	margin-top: 40px;
+	text-align: justify;
+	justify-content: center;
+	width : 85%;
+}
