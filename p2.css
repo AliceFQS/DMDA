@@ -33,6 +33,7 @@
 
 .P1 img {  
   	width : 50%;  
+  	max-height: 405px;
 }
 
 .P1 h4{
@@ -67,6 +68,7 @@
 .P2 img { 
  	width : 50%;  
   	justify-content: flex-end;
+  	max-height: 405px;
 
 }
 .P2 h4{
@@ -93,7 +95,8 @@
 }
 
 .P3 img {  
-  	width : 50%;  
+  	width : 50%; 
+  	max-height: 405px; 
 }
 
 .P3 h4{
@@ -121,9 +124,14 @@
 	width: 100% 
 	justify-content:space-around;
 }
+.T4{
+	width: 50%
 
+}
 .P4 img { 
-	 width : 50%;  
+	 width : 50%; 
+	 max-width: 720px; 
+	 max-height: 405px;
 }
 
 .P4 h4{
@@ -234,6 +242,10 @@
 		display: block;
 	}
 
+	.T4 {
+		width: 95%;
+	}
+
 	.P4 img{ width :100%;
 		height: auto;
 		margin-left: auto;
@@ -245,13 +257,15 @@
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 20px;
-	width : 85%;
+	width : 95%;
+	margin-left: 20px;
 	}
 
 	.P4 p{
-	margin-left: auto;
+	margin-left: 20px;
 	margin-top: 15px;
 	margin-right: auto;
+	width : 95%;
 	}
 }
 

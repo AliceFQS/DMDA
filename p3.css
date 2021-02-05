@@ -216,7 +216,7 @@ h3{
 /* Responsive  PAGE 3 Sortir */	
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1200px) {
 
 	.main {
 	padding-top: 40px;
