@@ -1,4 +1,4 @@
-/* PAGE 3 Sortir à SPB */
+ /* PAGE 3 Sortir à SPB */
 
 
 /* BANNIERE */
@@ -161,72 +161,56 @@ h3{
 
 .BLOCK{
 	display: flex;
-	
+	justify-content: space-around;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .B5{ display: flex;
 	flex-direction: column;
-	width: 100%;
-	margin-top: 20px;
-	margin-bottom: 20px;
- }
-
- .B5{ 
-	width: 45% ;
+	width: 45%; 
 	background-color: #e8e8e8;
-	
-	margin-left: auto;
-	margin-right: auto;	
+	padding: 20px;
 }
 
  .B5 img {  
 	  max-width: 600px;
 	  max-height: 355px; 
-	 position: center;
-	 margin-left: 20px;
-	 margin-right: 20px;
+	  padding-bottom: 10px;
 }
 
-.B5 h5{
-	margin-top: 15px;
-	margin-left: 20px;	
+.B5 h5{ 
+	padding-top: 10px;
+	
 }
 
 .B5 p{
-	margin-right: 20px;
-	margin-left: 20px;
 	text-align: justify;
 	
 }
 
-.B6{ 
-	display: flex;
+.B6{ display: flex;
 	flex-direction: column;
-	width: 45% ;
+	width: 45%; 
 	background-color: #e8e8e8;
-	
-	padding-top: 25px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	margin-right: 20px;
+	padding: 20px;
 }
 
 .B6 video-container{
-	margin-right: 20px;
-	margin-left: 20px;
+	 padding-bottom: 10px;
 
 }
 
 .B6 h5{
-	margin-top: 15px;
-	margin-left: 15px;
+	padding-top: 10px;
+
 }
 
 .B6 p{
-	margin-right: 15px;
-	margin-left: 15px;
 	text-align: justify;
-	width : 90%; }
+ 
+}
 
 
 /* Responsive  PAGE 3 Sortir */	
