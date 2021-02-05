@@ -1,0 +1,81 @@
+/* Page 4 Restaurants */
+
+a{
+	text-decoration: none;
+}
+
+/* BANNIERE */
+
+.main {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.main p{
+	margin-top: 25px;
+	margin-left: 140px;
+	margin-right: 140px;
+}
+
+.main h2{
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+}
+
+/* Ligne 1 */
+
+.L1{
+	margin-left: 40px;
+	margin-right: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.L1 img{
+	width: 100%;
+}
+
+/* Ligne 2 */
+
+.L2{
+	margin-left: 40px;
+	margin-right: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.L2 img{
+	width: 100%;}
+
+@media screen and (max-width: 800px){
+
+	.main h2{
+		font-size: 22px;
+	}
+
+	.main p{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.L1{
+		display: block;
+	}
+
+	.L1 img{ width :100%;
+		height: auto;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+
+	.L2{
+		display: block;
+	}
+	.L2 img{ width :100%;
+		height: auto;
+	margin-left: auto;
+    margin-right: auto;
+	}
+}
+

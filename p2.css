@@ -1,0 +1,257 @@
+/* PAGE 2 Visiter SPB */
+
+/* BANNIERE */
+
+
+.main {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.main p{
+	margin-top: 25px;
+	margin-left: 140px;
+	margin-right: 140px;
+}
+.main h2{
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+}
+
+
+
+/* Proposition 1 */
+
+.Page{
+	background-color: #d0e8f2;
+}
+
+.P1{ 
+	display: flex;
+	width: 100% ;
+}
+
+.P1 img {  
+  	width : 50%;  
+}
+
+.P1 h4{
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: justify;
+	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
+}
+
+.P1 p{
+	margin-left: 40px;
+	margin-top: 15px;
+	margin-right: 40px;
+	text-align: justify;
+	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
+	width : 85%;
+}
+
+/* Proposition 2 */
+
+.P2{ 
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100% ;
+}
+
+.P2 img { 
+ 	width : 50%;  
+  	justify-content: flex-end;
+
+}
+.P2 h4{
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.P2 p{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 15px;
+	text-align: justify;
+	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
+	width : 85% ;
+}
+
+/* Proposition 3 */
+
+.P3{ 
+	display: flex;
+	width: 100% 
+	justify-content:space-around;
+}
+
+.P3 img {  
+  	width : 50%;  
+}
+
+.P3 h4{
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+
+.P3 p{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	width : 85%;
+}
+
+/* Proposition 4 */
+
+.P4{ 
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100% 
+	justify-content:space-around;
+}
+
+.P4 img { 
+	 width : 50%;  
+}
+
+.P4 h4{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.P4 p{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+	text-align: justify;
+	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
+	width : 85% ;
+}
+
+/* Responsive  PAGE 2 Sortir */	
+
+@media screen and (max-width: 1050px){
+
+
+	.main h2{
+		font-size: 20px;
+	}
+
+	.main p{
+		max-width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.P1{
+		display: block;
+	}
+
+	.P1 img{ width :100%;
+		height: auto;
+		margin-left: auto;
+    margin-right: auto;
+	}
+
+	.P1 h4{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	width : 85%;
+	}
+
+	.P1 p{
+	margin-left: auto;
+	margin-top: 15px;
+	margin-right: auto;
+	}
+
+
+	.P2{
+		display: block;
+	}
+
+	.P2 img{ width :100%;
+		height: auto;
+	margin-left: auto;
+    margin-right: auto;
+	}
+
+	.P2 h4{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	width : 85%;
+	}
+
+	.P2 p{
+	margin-left: auto;
+	margin-top: 15px;
+	margin-right: auto;
+	}
+
+	.P3{
+		display: block;
+	}
+
+	.P3 img{ width :100%;
+		height: auto;
+		margin-left: auto;
+    	margin-right: auto;
+    }
+
+    .P3 h4{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	width : 85%;
+	}
+
+	.P3 p{
+	margin-left: auto;
+	margin-top: 15px;
+	margin-right: auto;
+	}
+
+	.P4{
+		display: block;
+	}
+
+	.P4 img{ width :100%;
+		height: auto;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+
+	.P4 h4{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	width : 85%;
+	}
+
+	.P4 p{
+	margin-left: auto;
+	margin-top: 15px;
+	margin-right: auto;
+	}
+}
+

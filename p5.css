@@ -1,0 +1,44 @@
+/* Page 5 Gallerie Photo */
+
+
+/* BANNIERE */
+
+.main {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.main p{
+	margin-top: 25px;
+	margin-left: 140px;
+	margin-right: 140px;
+}
+.main h2{
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+/* Carrousel */
+
+#carouselExampleControls{
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+	max-height: 520px;
+
+}
+
+@media screen and (max-width: 800px){
+	.main h2{
+		font-size: 22px;
+	}
+
+	.main p{
+		margin-left: 30px;
+		margin-right: 30px;
+
+	}
+}

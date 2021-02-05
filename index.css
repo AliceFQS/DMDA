@@ -1,30 +1,29 @@
+/* Général PAGE INDEX */
 
-h2{
-	margin: 30px;
+h1{ 
+	font-size: 25px; 
 }
 
-h4{
-	margin-left: 20px;
-	margin-right: 20px;
+h2{
+	margin: 15px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 25px;
+}
+
+h3{
+	margin-left: 15px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 25px;
 }
 .img-fluid {
 	max-width: 100%;
 	height: auto;
-	 }
-
-li{
- display: flex;
- justify-content: flex-end;
- }
-
-
-.card3{ 
-display: flex;
-justify-content: space-around;
-
 }
 
-
+li{
+ 	display: flex;
+ 	justify-content: flex-end;
+ }
 
 /* PAGE 1 Acceuil */
 
@@ -32,110 +31,105 @@ justify-content: space-around;
 .PP{ 
 	width: 100%;
  	display: flex
-	}
+}
 
 .PP img { 
 	width: 100%;
+	height: auto;
   	}
 
 .main {
 	text-align: center;
 	padding: 30px 0;
-	;
-	}
+}
+
 .main p{ 
-	margin-bottom: 40px;
+	margin-bottom: 12px;
 }
 
 .Container{
 	width:100%;
 	display:flex;
+	margin-bottom: 70px;
+	max-height: 550px;
+} 
 
-	} 
-.Image img{
+.Container img{
+	max-height: 580px; 
 	width: 100%;
-	position: relative;
+	position: center;
 }	
-.content { margin: 35px; 
-margin-left: 35px;}
+
+.Content {  
+	justify-content: space-around 50px;
+	max-height: 550px;
+	max-width: 550px; 
+}
+
 .Content {
 	position: absolute;
-	background-color: white;
-	opacity background color: 20%;
+	background-color: #ffffff95;
 	width: 35%;
+	text-align: justify;
 	padding: 20px;
-	text-align: justify;
-
+	margin-left: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
-
-
-
-/* PAGE 2 Visiter SPB */
-
-.P1{ display: flex;
-width: 100% 
-justify-content:space-around;
-background-color: #d0e8f2;
-}
-.P1 img {  
-  width : 50%;  
-  vertical-align:middle;
-}
-.P1 h4{
-	margin-top: 35px;
-	margin-left: 40px;
-	margin-right: 20px;
-}
-.P1 p{
-	margin-left: 40px;
-	margin-top: 40px;
-	text-align: justify;
-	justify-content: center;
-	width : 85%;
-}
-
-.P2{ 
+.card3{ 
 	display: flex;
-	width: 100% 
-	justify-content:space-around;
-	background-color: #d0e8f2;
-}
-.P2 img { 
-	justify-content: right; 
- 	width : 50%;  
-  	vertical-align:middle;
-}
-.P2 h4{
-	margin-top: 40px;
-	margin-left: 40px;
-}
-.P2 p{
-	margin-left: 40px;
-	margin-top: 40px;
-	text-align: justify;
-	justify-content: center;
-	width : 85% ;
+	justify-content: space-around;
+	margin-bottom: 60px;
 }
 
-.P3{ display: flex;
-width: 100% 
-justify-content:space-around;
-background-color: #d0e8f2;
+
+
+/* Responsive  PAGE INDEX Accueil*/
+@media screen and (max-width: 800px){
+
+
+	.main p{
+		margin-left: 20px;
+		margin-right: 20px;
+		text-align: justify;
+	}
+
+	.Content {
+		width: 85%;
+	}
+
+	.Content h2{
+		font-size: 17px;
+	}
+
+	.Content h3{
+		font-size: 17px;
+	}
+
+	.Content p{
+		font-size: 15px;
+	}
+
+	.Container {
+		height: 750px;
+	}
+
+	.Container img {
+		height: 750px;
+	}
+
+	.card3{
+		display: block;
+	}
+
+	.card {
+		display: block;
+		margin-left: auto;
+    	margin-right: auto;
+    	margin-bottom: 20px;
+	}
+
 }
-.P3 img {  
-  width : 50%;  
-  vertical-align:middle;
-}
-.P3 h4{
-	margin-top: 35px;
-	margin-left: 40px;
-	margin-right: 20px;
-}
-.P3 p{
-	margin-left: 40px;
-	margin-top: 40px;
-	text-align: justify;
-	justify-content: center;
-	width : 85%;
-}
+
+
